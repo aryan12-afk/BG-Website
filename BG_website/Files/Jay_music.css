@@ -1,0 +1,50 @@
+header {
+            padding: 20px;
+            background-color: aquamarine;
+        }
+
+.back-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #c09241;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #a8762e;
+}
+
+.header-container {
+    display: flex;
+    align-items:center;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.header-container img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.header-container h1 {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+aside {
+    float:right;
+    width: 40%;
+   background-color: #a8762e;
+}
+
+section {
+    float:left;
+    width: 60%;
+}
